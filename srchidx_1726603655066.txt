@@ -1,0 +1,79 @@
+{
+    "version": "2.3.9",
+    "fields": [
+        "title",
+        "text"
+    ],
+    "fieldVectors": [
+        [
+            "title/documentation/test/",
+            [
+                0,
+                0.288
+            ]
+        ],
+        [
+            "text/documentation/test/",
+            [
+                1,
+                0.288,
+                2,
+                0.288
+            ]
+        ]
+    ],
+    "invertedIndex": [
+        [
+            "dfgkffs",
+            {
+                "_index": 1,
+                "title": {},
+                "text": {
+                    "documentation/test/": {
+                        "position": [
+                            [
+                                0,
+                                7
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "flkdsfmkg",
+            {
+                "_index": 2,
+                "title": {},
+                "text": {
+                    "documentation/test/": {
+                        "position": [
+                            [
+                                8,
+                                9
+                            ]
+                        ]
+                    }
+                }
+            }
+        ],
+        [
+            "test",
+            {
+                "_index": 0,
+                "title": {
+                    "documentation/test/": {
+                        "position": [
+                            [
+                                0,
+                                4
+                            ]
+                        ]
+                    }
+                },
+                "text": {}
+            }
+        ]
+    ],
+    "pipeline": []
+}
